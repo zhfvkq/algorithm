@@ -3,6 +3,7 @@ package com.dayeon.algorithm.programmers.lv1.sort;
 import com.dayeon.algorithm.programmers.lv1.Solution1;
 import com.dayeon.algorithm.programmers.lv1.Solution2;
 import com.dayeon.algorithm.programmers.lv1.Solution3;
+import com.dayeon.algorithm.programmers.lv1.Solution4;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -27,4 +28,9 @@ class Lv1Test {
         solution3.testDy();
     }
 
+    @Test
+    public void solution4Test(){
+        Solution4 solution4 = new Solution4();
+        solution4.testDy();
+    }
 }
