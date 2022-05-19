@@ -4,6 +4,8 @@ import com.dayeon.algorithm.programmers.lv1.*;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import java.nio.charset.StandardCharsets;
+
 @SpringBootTest
 class Lv1Test {
 
@@ -41,5 +43,23 @@ class Lv1Test {
     public void solution6Test(){
         Solution6 solution6 = new Solution6();
         solution6.testDy();
+    }
+
+    @Test
+    public void solution7Test(){
+        Solution7 solution7 = new Solution7();
+        solution7.testDy();
+    }
+
+    @Test
+    public void solution8Test(){
+        Solution8 solution8 = new Solution8();
+        solution8.testDy();
+    }
+
+    @Test
+    public void solution9Test(){
+        Solution9 solution9 = new Solution9();
+        solution9.testDy();
     }
 }
