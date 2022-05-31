@@ -12,7 +12,6 @@ public class Solution9 {
         solution(n,lost,reserve);
     }
 
-    /* 테스트 success 채점 error */
     public int solution(int n, int[] lost, int[] reserve) {
         n = n - lost.length;
 

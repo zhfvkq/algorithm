@@ -62,4 +62,10 @@ class Lv1Test {
         Solution9 solution9 = new Solution9();
         solution9.testDy();
     }
+
+    @Test
+    public void solution10Test(){
+        Solution10 solution10 = new Solution10();
+        solution10.testDy();
+    }
 }
